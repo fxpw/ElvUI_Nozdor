@@ -690,7 +690,7 @@ do
 	function oUF:SpawnHeader(overrideName, template, visibility, ...)
 		if(not style) then return error('Unable to create frame. No styles have been registered.') end
 		--'SecureGroupHeaderTemplate'
-		template = ((_G[template] and _G[template] ) or nil)
+		template = (template or 'SecureGroupHeaderTemplate')
 
 		local isPetHeader = template and template:match('PetHeader')
 		local name = overrideName or generateName(nil, ...)
