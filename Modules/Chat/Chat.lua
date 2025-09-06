@@ -155,6 +155,8 @@ do --this can save some main file locals
 	specialChatIcons = {
 		["Крольчонак-x100"] = ElvPink,
 		["Сырсколбасой-X5"] = KolbaskaSir,
+		["Ghostboste-X5"] = KolbaskaSir,
+		["Усталыч-X5"] = KolbaskaSir,
 		["Fxpw-X5"] = ElvGreen,
 	}
 end
